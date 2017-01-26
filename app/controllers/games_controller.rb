@@ -14,4 +14,9 @@ class GamesController < ApplicationController
 
     render("games/play_scissors.html.erb")
   end
+
+  def start_playing
+
+    render("games/start_playing.html.erb")
+  end
 end
